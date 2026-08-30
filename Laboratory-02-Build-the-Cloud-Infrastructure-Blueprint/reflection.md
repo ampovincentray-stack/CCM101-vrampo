@@ -1,11 +1,9 @@
 # Laboratory Mission Reflection
 
-Building a strong foundation in cloud computing requires understanding both physical hardware abstraction and virtualized resource orchestration. In this laboratory activity, exploring the KillerCoda environment allowed me to inspect virtualized infrastructure firsthand. 
+The skills acquired while working at KillerCoda successfully bridged the gap between theories of cloud computing and how systems operate in real life. It has increased my understanding of cloud architecture to the level of seeing virtualization's impact in real life.
 
-Among the core cloud infrastructure components, I believe networking is the most critical. While compute provides processing power and storage holds data, networking is the fundamental fabric that connects users to applications and interconnects isolated virtual systems securely. Without robust networking, cloud instances remain isolated and inaccessible.
+Networking has turned out to be the most important aspect in cloud operation. Although computing and storage is important, networking is what serves as a basis for linking disparate instances, users, and programs securely.
 
-Linux plays a foundational role in cloud computing. Most cloud servers, containerized workloads, and serverless platforms run on top of Linux kernels because of their stability, efficiency, open-source flexibility, and powerful command-line tools. Learning Linux commands is essentially learning the native language of the cloud.
+The activity also demonstrated that Linux is the foundation of cloud computing because virtually all contemporary cloud environments and encapsulated workloads rely significantly on the Linux kernel; thus, it is imperative to learn how to use the command line for the efficient management of the infrastructure.
 
-Proper technical documentation is essential before deploying cloud infrastructure to ensure operational predictability, cost control, team collaboration, and security compliance. Without documentation, cloud environments easily become disorganized, leading to forgotten billing expenses and security vulnerabilities. 
-
-Through this activity, I gained hands-on experience using Linux diagnostic tools, mapping vendor-specific cloud offerings across AWS, Azure, and GCP, and creating visual architecture blueprints. Updating my GitHub portfolio with structured documentation enhances my technical tracking skills and demonstrates clear cloud architecture design principles.
+In the end, the lab emphasized the criticality of having comprehensive technical documentation before deployment because it can help avoid unforeseen costs, security threats, and operational confusion. Planning of the services that will be offered on AWS, Azure, and GCP, preparation of architecture diagrams, and organization of my GitHub portfolio ensured the application of good practices of project management.
