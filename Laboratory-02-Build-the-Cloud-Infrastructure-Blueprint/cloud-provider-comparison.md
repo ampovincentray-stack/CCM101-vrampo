@@ -14,13 +14,13 @@
 ## Guide Questions & Answers
 
 **1. Which cloud provider offers the broadest range of services? Explain your answer.**  
-Amazon Web Services (AWS) offers the broadest range of services due to its pioneer status and deep ecosystem mature offerings across compute, IoT, machine learning, and serverless architectures. Its extensive marketplace and global infrastructure availability make it the industry leader in total volume of cloud services.
+AWS (Amazon Web Services) has long been credited with the most comprehensive product portfolio. “From the perspective of the breadth of the market and infrastructure, it has the edge over other companies, with the kind of well-established solutions out there across computing, IoT and serverless technologies.
 
 **2. Which cloud platform would you recommend for an organization that primarily uses Microsoft products? Why?**  
-Microsoft Azure is highly recommended for organizations relying heavily on Microsoft products because of seamless active directory integrations, cost-effective hybrid licensing discounts, and native support for enterprise tools like Active Directory, Windows Server, and Office 365.
+The companies that made large investments in Microsoft products should use the Microsoft Azure platform due to the straightforward integration of active directory service, cost benefits from the hybrid licensing discounts and native support of enterprise tools, such as Active Directory, Windows Server and Office 365.
 
 **3. Which platform is widely recognized for Artificial Intelligence (AI), Machine Learning (ML), and Kubernetes services?**  
-Google Cloud Platform (GCP) is widely recognized for AI/ML and Kubernetes, as Google originally created Kubernetes and offers industry-leading tools like Google Kubernetes Engine (GKE) alongside advanced AI platforms like Vertex AI and custom TPU hardware.
+GCP is popular in the AI/ML and Kubernetes fields as it was created by Google, which is also the maker of Kubernetes and the provider of the best solutions like Google Kubernetes Engine (GKE), Vertex AI and custom TPU solutions.
 
 **4. What similarities did you observe among the three cloud providers?**  
-All three providers follow core cloud computing characteristics: offering pay-as-you-go pricing models, redundant global infrastructure regions/zones, centralized identity management systems, and equivalent core primitives for compute, storage, virtual networking, and security management.
+The three companies offer cloud computing capabilities such as pay-as-you-go pricing, redundant international infrastructure zones or regions, centralized identity management systems, and similar primitives for computing, storage, virtual networking and security management.
