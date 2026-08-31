@@ -8,4 +8,4 @@ I have likewise found in this lab that cloud computing places a great deal of re
 
 This experiment also gave me a better understanding of documentation. Before we use or construct a system it is necessary to produce documentation in which the steps and important information are given. There are many advantages to having documentation, the most important of these being that it eliminates errors. It also offers a number of benefits, such as preventing costly incidents and helping to secure things. It makes tasks easier for all the members of a group.
 
-I have gained a great deal of experience in many skills through this lab
+I have gained a great deal of experience in many skills through this lab activity.
