@@ -1,9 +1,11 @@
 # Laboratory Mission Reflection
 
-The skills acquired while working at KillerCoda successfully bridged the gap between theories of cloud computing and how systems operate in real life. It has increased my understanding of cloud architecture to the level of seeing virtualization's impact in real life.
+Cloud computing is essential now more than ever, as virtually every website, app, or online service is based on cloud computing. We must first understand computers, servers, networks, and virtual systems to understand cloud computing. I used KillerCoda to explore systems for this lab activity. This lab helped me learn and understand the lesson better as I got to learn by doing and practicing several things.
 
-Networking has turned out to be the most important aspect in cloud operation. Although computing and storage is important, networking is what serves as a basis for linking disparate instances, users, and programs securely.
+The part of cloud computing that I believe closely relates to this is networking. Processing information is the work of compute, while storage is dedicated to data. Users, applications, and systems that are disconnected can't access cloud services without networking. That is why networking is vital in cloud computing.
 
-The activity also demonstrated that Linux is the foundation of cloud computing because virtually all contemporary cloud environments and encapsulated workloads rely significantly on the Linux kernel; thus, it is imperative to learn how to use the command line for the efficient management of the infrastructure.
+I have also learned in this lab that cloud computing relies heavily on Linux. Linux is mainstream among cloud servers and deservedly so, as Linux being easy to control has built a good reputation for itself. Users can check and manage a system via different Linux commands. As far as my understanding of cloud computing goes, learning Linux commands is imperative.
 
-In the end, the lab emphasized the criticality of having comprehensive technical documentation before deployment because it can help avoid unforeseen costs, security threats, and operational confusion. Planning of the services that will be offered on AWS, Azure, and GCP, preparation of architecture diagrams, and organization of my GitHub portfolio ensured the application of good practices of project management.
+This lab also taught me about documentation. Before either using or building a system, we must make documentation in which we provide the steps and information of importance. Documentation can bring many positive things, the first and foremost being the removal of mistakes. Documentation also brings plenty of benefits, like stopping expensive things from happening, and keeping things more secure. Documentation makes tasks easy for every member of a group.
+
+This lab has given me practice in a lot of skills, and a lot of learning experiences.
