@@ -19,7 +19,7 @@ This laboratory activity focuses on exploring, assessing, and documenting core c
 ## Tools Used
 - KillerCoda Interactive Linux Playground
 - GitHub & Markdown
-- Draw.io / Excalidraw (Diagramming)
+- Excalidraw (Diagramming)
 - Linux CLI Diagnostics
 
 ## Linux Commands Executed
