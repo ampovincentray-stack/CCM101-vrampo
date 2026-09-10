@@ -4,7 +4,7 @@
 
 ### Recommended Platform: AWS
 
-AWS is a suitable choice for the startup because it provides a large range of services that can support a mobile application as the company grows. The startup can begin with relatively small cloud resources and increase them as demand increases. AWS also provides services for application hosting, databases, storage, security, and monitoring.
+AWS is a good choice for the growing startup. The company can begin with small cloud resources used incrementally based on demand. AWS has services dedicated to application hosting, database service, storage, cloud security, application security, and monitoring.
 
 ### Recommended Services
 
@@ -19,7 +19,7 @@ AWS is a suitable choice for the startup because it provides a large range of se
 
 ### Recommended Platform: Microsoft Azure
 
-Microsoft Azure is the most appropriate platform for the university because it already uses Windows Server, Microsoft 365, and Active Directory. Azure provides strong integration with Microsoft's enterprise technologies and can support hybrid and cloud migration scenarios. This can make the transition easier for administrators and users who already work with Microsoft technologies.
+Because the university utilizes Windows Server, Microsoft 365, and Active Directory, the most suitable cloud solution for the university is Microsoft Azure. An added advantage of using Azure is that it allows for easier integration for Microsoft's enterprise technologies than any other cloud solution. Azure can facilitate both hybrid and cloud migrations, which will make the adoption/ transition easier for the administrators and users of the Microsoft product suite.
 
 ### Recommended Services
 
@@ -34,8 +34,7 @@ Microsoft Azure is the most appropriate platform for the university because it a
 
 ### Recommended Platform: Google Cloud Platform
 
-Google Cloud is a strong choice for the AI research company because it provides cloud services designed for artificial intelligence, machine learning, data processing, and high-performance workloads. The company can use Google Cloud infrastructure to develop, train, and deploy AI and machine learning applications. Google Cloud also provides Kubernetes capabilities through Google Kubernetes Engine.
-
+An AI research firm should rely on Google Cloud due to their AI, machine learning, data processing and high-performance computing cloud services. Google Cloud’s infrastructure allows AI and machine learning application design, training, and execution. Google Cloud also provisions the Google Kubernetes Engine for Kubernetes services.
 ### Recommended Services
 
 - Vertex AI – AI and machine learning
@@ -49,7 +48,7 @@ Google Cloud is a strong choice for the AI research company because it provides 
 
 ### Recommended Platform: AWS
 
-AWS is a suitable choice for the global e-commerce company because it provides scalable computing, storage, networking, databases, and content delivery services. The company can distribute applications across multiple locations and use scalable services to respond to changes in customer demand. This makes AWS appropriate for a large online shopping platform requiring highly available infrastructure.
+As AWS offers elastic computing, storage, networking, database and content delivery services, it is the most viable option for the e-commerce organization. It allows businesses to deploy applications in different geographic locations and to apply elastic services that will help the organization in responding to the changes in customer demands. Therefore, AWS is the right solution for an e-commerce business of this size, which requires highly available infrastructure.
 
 ### Recommended Services
 
