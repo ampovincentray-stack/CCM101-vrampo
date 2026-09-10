@@ -2,15 +2,17 @@
 
 ## Brief Overview
 
-Google Cloud Platform (GCP), also called Google Cloud, is a cloud computing platform that provides infrastructure and managed services for computing, storage, networking, databases, analytics, artificial intelligence, machine learning, and application development.
+This overview is designed to help you understand the overall landscape of Google Cloud. You'll learn about how Google Cloud is structured, how its functionality is provided as services, and the different ways that you can interact with it when designing, creating, and running your applications.
+
+As you explore the rest of this Get started section, you'll learn more about Google Cloud's tooling and resources, and how to get started creating and managing your own applications on Google Cloud.
 
 ## Global Infrastructure
 
-Google Cloud operates infrastructure across different geographic regions and zones. Organizations can deploy workloads in appropriate locations to improve availability, performance, and reliability.
+Our data centers and global network provide low latency, low cost and high availability and are the most energy efficient and environmentally friendly.
 
 ## Cloud Management Console
 
-The Google Cloud Console is a web-based interface used to create, configure, monitor, and manage Google Cloud resources.
+The Google Cloud Console is to manage everything powering your cloud: data analysis, VMs, networking, and more. Provide granular access by resources and roles with customizable IAM permissions. Google’s infrastructure.
 
 Users can manage virtual machines, storage, networking, databases, Kubernetes environments, identity, and other cloud services.
 
@@ -18,19 +20,19 @@ Users can manage virtual machines, storage, networking, databases, Kubernetes en
 
 ### 1. Compute Engine
 
-Compute Engine provides virtual machine infrastructure for running applications and workloads.
+Easily create and run virtual machines on Google Cloud infrastructure. Choose from preset or custom machine types for web servers, databases, AI, and more. Google’s infrastructure. Scalable & Reliable.
 
 ### 2. Cloud Storage
 
-Cloud Storage provides object storage for files, backups, application data, and other objects.
+Simplify management at scale with Storage Intelligence and Gemini Cloud Assist. Google’s infrastructure. Free Trial Google Cloud. Scalable & Reliable. Deploy In Minutes. Per-Second Billing. 24x7 Phone Support. HIPAA Compliant. Services: Build, Store, Analyze, Evolve, Modernize.
 
 ### 3. Google Cloud VPC
 
-Google Cloud Virtual Private Cloud provides networking functionality for cloud resources including virtual machines and Kubernetes workloads.
+Google Cloud VPC is global, scalable, and flexible. Capture information about IP traffic with real-time VPC Flow Logs.
 
 ### 4. Cloud IAM
 
-Google Cloud Identity and Access Management controls who can access resources and what permissions they have.
+Identity and Access Management (IAM) gives admins fine-grained access control and visibility for centrally managing enterprise cloud resources. Securely manage identities across humans and AI.
 
 ## Three Advantages
 
