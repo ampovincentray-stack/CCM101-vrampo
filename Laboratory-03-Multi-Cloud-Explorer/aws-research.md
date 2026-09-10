@@ -1,60 +1,55 @@
-# Microsoft Azure Research
+# Amazon Web Services (AWS) Research
 
 ## Brief Overview
 
-Microsoft Azure is a cloud computing platform provided by Microsoft. Azure provides services for computing, storage, networking, databases, artificial intelligence, security, analytics, and application development.
+Amazon Web Services (AWS) is a cloud computing platform that provides a large collection of infrastructure and cloud services. AWS allows organizations to use computing, storage, networking, databases, security, analytics, and other resources through the cloud instead of maintaining all infrastructure on-premises.
 
 ## Global Infrastructure
 
-Azure operates cloud infrastructure across many geographic locations around the world. Azure organizes its infrastructure into regions and availability-related infrastructure to help organizations deploy applications close to their users and improve reliability.
+AWS operates a global cloud infrastructure organized into Regions and Availability Zones. Regions are separate geographic areas, while Availability Zones provide separate infrastructure locations within a Region. This structure helps organizations design applications for reliability and availability.
 
 ## Cloud Management Console
 
-The Azure Portal is a web-based management interface used to create, configure, monitor, and manage Azure resources.
-
-Users can manage virtual machines, storage, databases, networking, security, applications, and other Azure services through the portal.
+The AWS Management Console is a web-based interface used to access and manage AWS services. Users can use the console to create and configure resources such as virtual machines, storage, databases, networking components, and security settings.
 
 ## Four Core Services
 
-### 1. Azure Virtual Machines
+### 1. Amazon EC2
 
-Azure Virtual Machines provide scalable virtual servers that can run Windows or Linux workloads.
+Amazon Elastic Compute Cloud (EC2) provides virtual servers that organizations can use to run applications and workloads.
 
-### 2. Azure Blob Storage
+### 2. Amazon S3
 
-Azure Blob Storage provides cloud object storage for unstructured data such as documents, images, videos, backups, and application data.
+Amazon Simple Storage Service (S3) provides object storage for storing files, data, backups, media, and other objects.
 
-### 3. Azure Virtual Network
+### 3. Amazon VPC
 
-Azure Virtual Network allows organizations to create private networks for Azure resources and control network communication.
+Amazon Virtual Private Cloud (VPC) provides networking capabilities for AWS resources. It allows organizations to create isolated virtual networks and configure subnets, routing, and gateways.
 
-### 4. Microsoft Entra ID
+### 4. AWS IAM
 
-Microsoft Entra ID provides identity and access management capabilities for users, applications, and resources.
+AWS Identity and Access Management (IAM) controls authentication and authorization for AWS resources.
 
 ## Three Advantages
 
-1. Azure has strong integration with Microsoft technologies.
-2. Azure supports both Windows and Linux workloads.
-3. Azure provides a wide range of enterprise cloud services.
+1. AWS provides a broad selection of cloud services.
+2. AWS provides global infrastructure that can support applications in different geographic locations.
+3. AWS allows organizations to scale cloud resources according to their requirements.
 
 ## Typical Enterprise Use Cases
 
-Azure can be used for:
+AWS can be used for:
 
-- Windows Server workloads
-- Microsoft 365-related enterprise environments
-- Enterprise applications
-- Web applications
-- Databases
-- Artificial intelligence
-- Data analytics
-- Hybrid cloud environments
+- Web and mobile applications
+- Enterprise application hosting
+- Data storage and backup
+- Database systems
+- Artificial intelligence and machine learning
+- E-commerce applications
+- Disaster recovery
 
 ## Source
 
-Microsoft Azure Official Website:
-https://azure.microsoft.com/
-
-Microsoft Azure Documentation:
-https://learn.microsoft.com/azure/
+AWS Official Documentation:
+https://aws.amazon.com/
+https://docs.aws.amazon.com/
