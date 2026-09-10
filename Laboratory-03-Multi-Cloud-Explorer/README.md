@@ -33,3 +33,7 @@ Command used:
 
 ```bash
 cat /etc/os-release
+lscpu
+free -h
+df -h
+
