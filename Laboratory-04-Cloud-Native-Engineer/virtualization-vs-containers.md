@@ -9,5 +9,4 @@
 
 ## Summary
 
-Containers can be useful for web applications because they are lightweight and can start much faster than traditional Virtual Machines. Unlike VMs, containers do not require a separate guest operating system for every application, which can reduce resource usage. Docker also makes applications easier to package and move between compatible environments. For web applications that need quick deployment and efficient resource usage, containerization provides a practical approach.
-
+Web applications utilize containers due to their cost-effective attributes, being lighter and booting faster than conventional Virtual Machines. Unlike Virtual Machines, containers do not have to maintain multiple guest OS for their applications and use lesser resources. Through Docker, the process of deploying applications across similar systems has become that much easier and smoother.
