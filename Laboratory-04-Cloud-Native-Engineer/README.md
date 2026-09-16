@@ -2,7 +2,7 @@
 
 ## Mission Overview
 
-This laboratory activity introduces cloud-native technologies, especially containers and Docker. The activity focuses on understanding the differences between traditional Virtual Machines and containers and deploying an Nginx web server using Docker.
+In this lab, students will explore cloud-native technologies, namely containers and Docker. The objective of this laboratory activity is to gain insight into the distinctions between conventional virtual machines and containers and deploy an Nginx Web Server using Docker.
 
 ## Objectives
 
@@ -31,9 +31,8 @@ docker rm nginx-server
 
 ## Skills Learned
 
-Through this activity, I learned how to verify a Docker environment, download a Docker image, create and run a container, map a network port, test a web server, and manage the container lifecycle.
+Because of this activity, I learned how to verify a Docker environment, download a Docker image, create and run a container, map a network port, test a web server, and use the container lifecycle.
 
 ## Challenges Encountered
 
-One challenge was understanding the difference between a Docker image and a running container. I also had to make sure that the correct port was mapped so that the Nginx web server could be accessed through port 8080. Reading the terminal output and executing the commands step by step helped me understand how Docker manages applications.
-
+I formerly struggled with the difference between a docker image and a container in how they work. I also needed to check if I had properly mapped the port to connect to the Nginx web server identified through port 8080. In this regard, following the terminal messages and executing the commands made me understand how Docker works with different applications.
