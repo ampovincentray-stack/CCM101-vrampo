@@ -3,9 +3,9 @@
 | Category            | Virtual Machines                                                                                  | Containers                                                                                                    |
 | ------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | Architecture        | Each VM includes a guest operating system that runs on a virtualized hardware environment.        | The kernel of the host OS is shared by containers but applications and its respective dependencies are isolated from each other. |
-| Boot Time           | VMs usually take minutes to start because an operating system needs to boot.                      | Containers can usually start in seconds because they do not need to boot a separate operating system.         |
-| Resource Efficiency | VMs generally require more CPU, memory, and storage because each VM includes a guest OS.          | Containers are lightweight and generally use fewer resources because they share the host OS kernel.           |
-| Isolation Level     | VMs provide hardware-level virtualization and stronger separation between operating environments. | Containers provide process-level isolation while sharing the host operating system kernel.                    |
+| Boot Time           | VMs usually take minutes to start because an operating system needs to boot.                      | Usually containers are able to start in seconds, as they do not require booting a separate OS.         |
+| Resource Efficiency | VMs generally require more CPU, memory, and storage because each VM includes a guest OS.          | In most cases, containers are lightweight since they make use of the host OS kernel.           |
+| Isolation Level     | VMs provide hardware-level virtualization and stronger separation between operating environments. | By using the host operating system kernel, containers are providing the capability of process level isolation at the same time.                    |
 
 ## Summary
 
