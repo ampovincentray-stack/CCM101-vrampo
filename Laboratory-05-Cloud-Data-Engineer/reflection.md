@@ -1,36 +1,11 @@
 # Mission Reflection
 
-This laboratory helped me understand why object storage is useful for
-applications that need to store a very large number of files such as
-photos. Object storage is designed for unstructured data and organizes
-objects inside buckets. Compared with traditional block storage, it is
-more suitable for applications that need to store large collections of
-images because files can be managed as objects together with their
-associated metadata.
+The lab has given me insight into the advantages of object storage for the storage of large amounts of data like images. Object storage is developed and constructed to deal with unstructured data, storing various objects in buckets. This storage system is different from conventional block storage as it is better suited for applications involving the mass storage of images due to its ability to handle files along with their relevant metadata together with them.
 
-Docker made deploying the MinIO storage server easier because I did not
-need to manually install and configure every component of the storage
-software. The Docker command downloaded the MinIO image and started the
-server with the required ports and environment variables. This made the
-deployment process faster and more consistent.
+Using Docker simplified the process of deploying MinIO storage server because I have not had to install and configure all its parts manually. With the help of Docker command, MinIO image was downloaded and server was started with the needed ports and environment variables. This approach has sped up the process of deployment.
 
-A bucket is a logical container used to organize objects in object
-storage. In this activity, I created a bucket named `client-photos`.
-The bucket provided a location where the sample image or text file could
-be uploaded and managed.
+Buckets serve as sensible containers that help with classifying the objects in object storage. In this case, I prepared a bucket called client-photos. The bucket served as a location where a sample image jpg can be uploaded and handled.
 
-Large enterprise companies can use several techniques to reduce the risk
-of losing object storage data when physical hardware fails. These can
-include keeping multiple copies of data, using redundancy, replicating
-data across storage systems or locations, and maintaining backups.
-These approaches help make data available even when individual hardware
-components experience problems.
+Big businesses are able to apply various methods to minimize the chances of losing stored information caused by hardware breakdowns. These include storing multiple copies of information, introducing redundancy, replicating data over different storage systems or places, and taking backups of information. The mentioned practices guarantee that the data is accessible in the event of a malfunction of equipment.
 
-My confidence in navigating the Linux command line has also improved.
-At the beginning, commands such as `docker run` and `docker ps` were
-unfamiliar, but I became more comfortable entering commands and checking
-their output. I learned that command-line skills are important for cloud
-engineering because many cloud services and containers can be deployed
-and managed through terminal commands. This activity also helped me
-understand how Docker, MinIO, ports, buckets, and object storage work
-together as part of a cloud environment.
+I have gained more confidence in utilizing the Linux command line as well. At first, I didn’t understand what “docker run” and “docker ps” meant, but I managed to make use of the command line. I came to the realization that it is very important for a cloud engineer to have information about the command line since a number of cloud technologies and containers are operated via commands in the command line interface. Besides, I learned how such concepts as Docker, MinIO, ports, buckets, and object storage work in the cloud during this experience.
