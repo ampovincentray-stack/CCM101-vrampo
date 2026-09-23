@@ -2,7 +2,7 @@
 
 ## Mission Overview
 
-In this laboratory activity, I deployed an S3-compatible object storage server using MinIO and Docker. I created a storage bucket named `client-photos` and uploaded a test file through the MinIO Web Console.
+In this laboratory activity, I deployed an S3-compatible object storage server using MinIO and Docker. I created a storage bucket named `client-photos` and uploaded a test file like sample.jpg through the MinIO Web Console.
 
 ## Objectives
 
@@ -22,7 +22,6 @@ In this laboratory activity, I deployed an S3-compatible object storage server u
 - MinIO
 - GitHub
 - Web Browser
-- Markdown
 
 ## Skills Learned
 
@@ -32,5 +31,5 @@ In this laboratory activity, I deployed an S3-compatible object storage server u
 - Using port forwarding.
 - Creating and managing MinIO buckets.
 - Uploading objects to cloud storage.
-- Documenting technical work using Markdown.
-- Managing a GitHub portfolio.
+- Uploading files like sample.jpg
+- using different command to make apps
