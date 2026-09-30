@@ -2,7 +2,7 @@
 
 ## What Does the `services:` Block Do?
 
-The `services:` block defines the different services or containers that make up an application. In this laboratory activity, it contains two services: `database` and `app`. The `database` service uses MariaDB 10.6, while the `app` service uses the Nextcloud image. Docker Compose uses these definitions to create and manage the containers together.
+The 'services' block comprises the various services or containers that constitute an application. In this lab activity, it contains two services namely: database and app. The database service is based on MariaDB 10.6 and the app service is based on the Nextcloud image. Docker Compose uses these specifications to create and maintain the containers together.
 
 ## How Does the Nextcloud App Container Find the Database?
 
