@@ -2,17 +2,17 @@
 
 ## What is a Two-Tier Architecture?
 
-A two-tier architecture is a software design in which an application is divided into two main parts: the web/application tier and the database tier. These two tiers work together to provide services to users. In this laboratory activity, Nextcloud serves as the web application, while MariaDB serves as the database.
+An example of a two-tier architecture is the separation of a web application into a web/application tier and a database tier. The web/application tier provides a user interface and makes requests to the database tier to fulfill user requests. NextCloud is the web application in this lab and MariaDB is the database.
 
 ## The Web/Application Tier
 
-The web/application tier is responsible for providing the user interface and handling HTTP requests from users. In this activity, Nextcloud is the web application that allows users to access and manage their files through a web browser. It communicates with the database to store and retrieve information.
+The web/application tier is accountable for the interface and the management of user request. In this context, Nextcloud is a web application that provides users with access to their files via browsers. It interacts with the database for the storage and retrieval of data.
 
 ## The Database Tier
 
-The database tier is responsible for storing and managing persistent information, such as user accounts, configuration data, and file metadata. In this activity, MariaDB acts as the database for Nextcloud. It allows the application to retrieve and save the information it needs.
+The tier of the database has an important role to play in keeping and managing many permanent data like user accounts, configuration details, file metadata, etc. MariaDB plays the part of the database in Nextcloud in this process. This way the application can store its information and use it when it is needed.
 
 ## Why Separate Them?
 
-Separating the web application and database into two containers makes the system easier to manage and maintain. Each container can be updated, restarted, and configured independently without requiring both services to be placed in one container. This separation also makes it easier to scale and troubleshoot the application.
+By putting the web app and database in the two containers the management and maintainability of the system becomes easier. Each container is able to be updated, restarted, and configured on its own. It helps to easily scale and fix issues within the application.
 
