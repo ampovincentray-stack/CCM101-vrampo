@@ -2,7 +2,8 @@
 
 ## Mission Overview
 
-This laboratory activity focuses on deploying a multi-tier cloud application using Docker Compose. The project uses Nextcloud as the web application and MariaDB as its database. Both services are defined in a `docker-compose.yml` file and deployed together in a Docker environment.
+The goal of this lab is to deploy a multi-tier cloud application (web app + DB) based on Nextcloud and MariaDB through the use of Docker-Compose.
+Both services are declared inside a “docker-compose.yml” file.
 
 ## Objectives
 
