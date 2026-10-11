@@ -12,11 +12,22 @@ Paste the exact line from your terminal that records the request to `/hidden-adm
 
 Application logs are important because they record requests, errors, and other events that help engineers identify what went wrong. By examining these logs, an engineer can investigate failed requests, determine possible causes, and choose appropriate troubleshooting steps.
 
-## 2. Real-Time Container Metrics
+## Real-Time Container Metrics
 
-Complete this section in Checkpoint 5.
+**Command executed:** `docker stats`
 
-## 3. Evidence
+| Metric         | Actual Observation                       |
+| -------------- | ---------------------------------------- |
+| Container Name | client-website                           |
+| CPU Usage      | 0.00%                  |
+| Memory Usage   | 2.727MiB|
+| Memory Limit   | 1.859GiB                 |
+| Network I/O    | 4.49kB / 5.95kB                |
 
-* `screenshots/docker-logs.png`
+### Analysis
 
+The `docker stats` command provides real-time information about container resource consumption. The CPU percentage and memory usage help an engineer assess whether the container is consuming significant resources while serving web requests.
+
+## Evidence
+
+* `screenshots/container-metrics.png`
