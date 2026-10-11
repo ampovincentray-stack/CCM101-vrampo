@@ -6,7 +6,9 @@
 
 ### HTTP 404 Error Log
 
-Paste the exact line from your terminal that records the request to `/hidden-admin-page` and the HTTP 404 status.
+172.17.0.1 [11/Oct/2026:19:15:15 +0000] "GET /hidden-admin-page HTTP/1.1" 404 153 "-" "curl/8.5.0"
+
+2026/10/11 19:15:15 [error] 29#29: *4 open() "/usr/share/nginx/html/hidden-admin-page" failed (2: No s uch file or directory), client: 172.17.0.1, server: localhost, request: "GET /hidden-admin-page HTTP/1 .1", host: "localhost:8080"
 
 ### Why Application Logs Are Important
 
