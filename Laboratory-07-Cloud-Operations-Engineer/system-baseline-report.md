@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-The objective of this checkpoint is to establish a baseline of the Linux host's memory, disk capacity, CPU load, and running processes before deploying the Nginx container.
+The main objective of this checkpoint is to come up with a baseline for memory usage, disk usage, CPU usage, and processes running on a Linux host prior to deployment of the Nginx container.
 
 ## 2. Memory Check
 
@@ -25,11 +25,10 @@ The objective of this checkpoint is to establish a baseline of the Linux host's 
 
 **Command executed:** `top`
 
-The `top` command displayed the active processes, CPU utilization, and system load. I observed the changing resource values to understand the server's condition.
-
+The "top" command shows all the processes that are active, CPU usage, and the system load. I noted all the changing parameters to understand how the server was working.
 ## 5. Why Disk Space Matters
 
-Checking disk space before a massive traffic surge is important because a full filesystem can prevent applications from writing logs, temporary files, and other required data, potentially causing service failures.
+Checking how much space is available on the disk before a sudden spike in traffic is important because an unresponsive filesystem might keep the applications from logging information, and thus failures may occur.
 
 ## 6. Evidence
 
