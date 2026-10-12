@@ -2,7 +2,8 @@
 
 ## Mission Overview
 
-This laboratory activity focuses on cloud operations, Linux system monitoring, Docker container deployment, application logging, and real-time performance monitoring. Using the KillerCoda Playground, I performed a baseline health check, deployed an Nginx web server, generated HTTP requests, and examined the resulting logs and container metrics.
+In this lab, cloud computing operations, Linux based server monitoring, deployment of Docker containers, and logging and monitoring of applications were covered as well as logging and monitoring of application performance were dealt with. I utilized the KillerCoda Playground to conduct a baseline evaluation, deploy an Nginx web server, generate HTTP requests, and analyze the metrics and logs of the container.
+
 
 ## Objectives
 
@@ -29,7 +30,7 @@ This laboratory activity focuses on cloud operations, Linux system monitoring, D
 
 ## Skills Learned
 
-Through this activity, I practiced Linux resource monitoring, Docker deployment, HTTP request testing, log analysis, performance observation, Markdown documentation, and GitHub portfolio management.
+This lab enabled me to practice Linux resource monitoring, deployment of Docker containers, testing and analysis of HTTP requests as well as logging, monitoring, and Markdown documentation.
 
 ## Repository Contents
 
