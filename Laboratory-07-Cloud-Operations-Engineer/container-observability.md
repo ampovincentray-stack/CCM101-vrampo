@@ -12,8 +12,7 @@
 
 ### Why Application Logs Are Important
 
-Application logs are important because they record requests, errors, and other events that help engineers identify what went wrong. By examining these logs, an engineer can investigate failed requests, determine possible causes, and choose appropriate troubleshooting steps.
-
+Logs capture actions taken, display errors, and contain other information that is often valuable during the debugging process. Engineers are often able to identify which requests failed and include the reasons in the logs. Knowing these reasons often aids in taking the required corrective action.
 ## Real-Time Container Metrics
 
 **Command executed:** `docker stats`
@@ -28,7 +27,7 @@ Application logs are important because they record requests, errors, and other e
 
 ### Analysis
 
-The `docker stats` command provides real-time information about container resource consumption. The CPU percentage and memory usage help an engineer assess whether the container is consuming significant resources while serving web requests.
+Docker Stats displays the resource utilization of containers in real time. CPU and memory usage of a container give the engineer an idea about the resources being utilized by the container in the process of servicing requests.
 
 ## Evidence
 
