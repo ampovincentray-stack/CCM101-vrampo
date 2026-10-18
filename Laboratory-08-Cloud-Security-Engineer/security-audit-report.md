@@ -2,11 +2,11 @@
 
 ## 1. Principle of Least Privilege (PoLP)
 
-The Principle of Least Privilege means that each user or application should receive only the permissions needed to perform its assigned tasks. In cloud environments, this reduces the damage an attacker could cause if an account or service were compromised.
+Least Privilege refers to only giving permissions to users or applications that would assist them in completing their jobs. This is useful in a cloud setting to decrease the extent of damage that can be inflicted by an attacker in case an account or a service gets compromised.
 
 ## 2. Attack Surface
 
-The attack surface of a virtual machine includes the network ports, running services, applications, and access points that an attacker could potentially target. Reducing unnecessary services and exposed ports makes it more difficult for attackers to find ways into the server.
+The attack surface of a virtual machine consists of network ports, running services, applications, and entry points by means of which a hacker can penetrate the system. Lessening the number of services and ports makes it more difficult for hackers to attack servers.
 
 ## 3. Default Deny Policy
 
@@ -14,9 +14,9 @@ A Default Deny policy blocks incoming network traffic unless a specific rule per
 
 ## 4. Security Audit Summary
 
-The purpose of this laboratory activity is to deploy a web application, configure the Ubuntu host firewall using UFW, and permit only the required network traffic. The intended configuration blocks incoming traffic by default while allowing SSH for administration and TCP port 8080 for the web application.
+The Default Deny policy means that incoming traffic is blocked automatically unless it complies with certain set of rules. This policy is more secure than trying to block specific hackers because unknown connections are blocked automatically instead of spending time on identifying the ones to be blocked.
 
 ## 5. Evidence
 
-Screenshots of the running application, active firewall, and numbered firewall rules are stored in the screenshots folder.
+The folder with screenshots contains images of the running application.
 
