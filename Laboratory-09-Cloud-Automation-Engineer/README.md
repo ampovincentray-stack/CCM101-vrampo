@@ -3,17 +3,16 @@
 
 ## Mission Overview
 
-This laboratory activity focuses on automating cloud administration tasks using Bash scripting and the Linux Cron scheduler. A backup script was created to compress application data into a timestamped archive and prepare it for automatic daily execution.
+This lab activity aims at automating the management of cloud tasks through Bash scripting and CRON on Linux. A backup script is prepared to archive application files. The script will create a backup file every day at a particular time.
 
 ## Objectives
 
-- Understand Bash scripting, variables, and the shebang.
-- Create and save a Bash script using Nano.
-- Use `chmod +x` to grant execute permission.
-- Create and verify a compressed backup archive.
-- Configure a Cron job to schedule a daily backup at 2:00 AM.
-- Document the implementation and results using Markdown.
-- Complete the ninth chapter of the GitHub Cloud Computing Portfolio.
+- Understand Bash scripting as well as variables and shebang.
+- Write a simple Bash script through Nano editor.
+- Run chmod +x to grant execution permission.
+- Create and test a compressed backup archive.
+- Set a Cron job, which will allow a backup to be created at 2:00 AM every day
+- Record the results in Markdown.
 
 ## Commands Executed
 
@@ -33,12 +32,12 @@ env EDITOR=nano crontab -e
 
 ## Skills Learned
 
-- Writing and executing Bash scripts.
-- Using variables and timestamps in automation.
-- Compressing directories with `tar`.
-- Managing Linux file permissions.
+- Know how to write and execute Bash scripts.
+- Understand the use of variables and timestamps in automation.
+- Work with tar to archive folders.
+- Know how to set permissions in Linux.
 - Scheduling tasks using Cron.
-- Creating technical documentation in Markdown.
+- Create technical documents in Markdown format.
 - Maintaining a GitHub portfolio with screenshots and commits.
 
 ## Evidence
