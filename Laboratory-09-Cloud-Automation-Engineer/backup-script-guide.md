@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-The purpose of this Bash script is to automate the backup of the application data directory. It creates a backup directory and compresses the application files into a timestamped `.tar.gz` archive.
+This Bash script is meant to simplify the backing up of the application data directory by creating a backup folder as well as packing the application data into a .tar.gz archive named after the date. 
 
 ## 2. Complete Bash Script
 
@@ -27,7 +27,7 @@ echo "Backup completed successfully at $TIMESTAMP!"
 
 ## 3. File Permissions
 
-The command `chmod +x backup.sh` grants execute permission to the Bash script. This allows the user to run the script directly using `./backup.sh`, rather than only treating it as a text file.
+With the command `chmod +x backup.sh`, execute permissions are granted for Bash scripts. This enables the user to execute `./backup.sh`, as opposed to just treating the file as a simple text file.
 
 ## 4. Cron Job Configuration
 
@@ -51,7 +51,7 @@ The command `/root/backup.sh` identifies the script that Cron executes.
 
 ## 5. Expected Result
 
-When the script executes successfully, it creates the `backups` directory and a compressed archive containing the `app-data` directory. The timestamp in the archive filename helps distinguish backups created at different times.
+When executed, the script is able to create the backups directory with the archived app data. 
 
 ## 6. Verification Commands
 
@@ -62,4 +62,4 @@ ls -l backups/
 crontab -l
 ```
 
-These commands verify the script's executable permission, test the backup process, list the generated archive, and display the configured Cron schedule.
+This command allows for checking the execution permissions of the script and testing the process of creating the backup, listing the created archives and displays the current Cron schedule.
