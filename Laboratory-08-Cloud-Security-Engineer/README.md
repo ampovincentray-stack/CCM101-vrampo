@@ -2,16 +2,16 @@
 
 ## Mission Overview
 
-This laboratory focuses on securing an Ubuntu server using a host-based firewall. I deployed an Nginx web application using Docker and configured UFW to allow required network traffic while denying incoming connections by default.
+The laboratory activity is based on securing an Ubuntu server making use of a host-based firewall. I deployed an Nginx web application on the server using Docker and configured UFW in a way that allows only essential traffic, but blocks any incoming connections.
 
 ## Objectives
 
 - Understand the Principle of Least Privilege.
-- Explain the concept of an attack surface.
-- Configure a default-deny incoming firewall policy.
+- Explain the attack surface
+- Set up a default-deny incoming firewall policy
 - Allow SSH and TCP port 8080.
-- Verify firewall rules and test the web application.
-- Document the security configuration using Markdown.
+- Verify the firewall rules and test the web application
+- Provide documentation of the security settings with Markdown
 
 ## Commands Executed
 
@@ -33,12 +33,12 @@ sudo ufw status numbered
 
 ## Skills Learned
 
-- Deploying a web server with Docker.
-- Testing a web application with curl.
+- Deploying a web application in docker
+- Testing web applications with the use of curl
 - Configuring UFW on Ubuntu.
-- Managing firewall rules and network ports.
-- Applying the Principle of Least Privilege and Default Deny.
-- Creating technical documentation and evidence in GitHub.
+- Configuring UFW in Ubuntu
+- Managing firewall rules
+- Applying the Principle of Least Privilege and Default Deny
 
 ## Screenshots
 
