@@ -8,7 +8,7 @@ Command:
 sudo ufw allow ssh
 ```
 
-Explanation: This rule permits SSH traffic so administrators can remotely manage the server.
+Explanation: The regulation allows for SSH connections which enable the users to manage the server from any remote location.
 
 ## 2. Configure the Default Policies
 
@@ -36,7 +36,8 @@ Verify the configuration:
 sudo ufw status verbose
 ```
 
-Explanation: The default-deny incoming policy blocks connections unless an explicit rule permits them, while outgoing connections are allowed by default.
+Explanation: Under the condition of a default-deny incoming regulation, all connections will get blocked unless there is any prior authorization given so that a connection can be made. However, outgoing connections will be enabled as a default.
+
 
 ## 3. Allow the Web Application
 
@@ -58,16 +59,16 @@ Test the application:
 curl http://localhost:8080
 ```
 
-Explanation: The TCP port 8080 rule permits incoming traffic for the web application's published port.
+Explanation: The TCP port 8080 regulation allows connections to come to the port of the web application that is published.
 
 ## 4. Why SSH Must Be Allowed Before Enabling UFW
 
-If `sudo ufw enable` is run before `sudo ufw allow ssh`, a remote administrator's SSH connection may be blocked by the default-deny incoming policy, potentially locking the administrator out of the server.
+If the command sudo ufw enable is issued before issuing the command sudo ufw allow ssh, the SSH connection of the remote administrator will be blocked, thus causing the administrator to be locked out from the server.
 
 ## 5. Security Best Practices
 
-- Allow only the network ports required by the application.
-- Use a default-deny incoming policy.
-- Verify firewall rules after making changes.
-- Avoid exposing administrative services to unnecessary networks.
-- Review firewall rules regularly.
+- Permit the entry of necessary ports only.
+- Use the default-deny incoming policy.
+- Confirm the firewall rules after the changes are made.
+- Stay away from exposing administrative services to unnecessary networks.
+- Regularly monitor the firewall rules.
